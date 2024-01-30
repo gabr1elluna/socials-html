@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+}
+
+.box {
+    background-color: #2e2c2c;
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 600px;
+    animation: bounce 2s infinite;}
+    @keyframes bounce{
+        0%{transform: translateY(0);}
+        40%{transform: translateY(-5px);}
+        60%{transform: translateY(-5px);}
+}
+
+button {
+    background-color: #696969;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
+    padding: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B0C4DE;
+    animation: pulse 2s infinite;}
+    @keyframes pulse {
+    0%, 100% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+}
+
+.button-1 i {
+    margin-right: 2px;
+}
+
+.button-2 i{
+    margin-right: 5px;
+}
+
+.button-3 i {
+    margin-right: 5px;
+}
+
+.button-4 i {
+    margin-right: 5px;
+}
+
+.profile-pic {
+    max-width: 7rem;
+    border-radius: 100%;
+    padding: 2rem;
+}
+
+
+.text-name {
+    color: #E0FFFF	;
+}
+
+.text-where {
+    color: #ADFF2F	;
+}
+
+.text-description {
+    color: #F0E68C;
+}
+
