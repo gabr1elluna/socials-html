@@ -1,4 +1,4 @@
-# Socials links profile
+# Social Links Profile
 HTML i've done inspired on FrontEnd Mentor's Social links profile challenge.
 
 Still practicing some front-end skills, it was so much fun doing it.
